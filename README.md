@@ -152,7 +152,7 @@ This script automates the detection of potential **clickjacking vulnerabilities*
    ```
 2. Run the script:
    ```bash
-   python Whoiser.py
+   python Clickjacker.py
    ```
    
 3. You'll be prompted to enter:

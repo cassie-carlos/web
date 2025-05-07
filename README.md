@@ -134,8 +134,21 @@ W.I.P.
 
 ### 📌 Script: `NMaper.py`
 
-(VA) Automate the running and screenshotting of NMap results, parse through results for all open ports, compile data in .txt file
-W.I.P.
+**Description:**
+This script automates the parsing through NMap _UDP_ scan results. It scans the target file for all ports marked as 'open' and lists them per IP in a `.txt` file.
+
+**Usage:**
+1. Run the script as follows:
+   ```bash
+   python NMaper.py <target file>
+   ```
+   Note: This script is designed to look through NMap UDP results specifically.
+   
+The script will:
+   - Parse through a given file for all open ports, as formatted in an NMap scan.
+   
+**Output:**
+- A `.txt` file named `<filename>_OpenPorts.txt`
 
 ---
 
